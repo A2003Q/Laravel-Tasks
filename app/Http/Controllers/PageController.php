@@ -12,4 +12,14 @@ class PageController extends Controller
     {
         return view('user', ['username' => $name]);
     }
+    public function task5()
+    {
+        return view('task5');
+    }
+    public function task7()
+    {
+        return view('task7');
+    }
+
+ 
 }
